@@ -274,4 +274,4 @@ full_dataset = full_dataset.drop(['text_info','work_keyword'],axis=1)
 
 # csv형태로 저장
 full_dataset = full_dataset[['title','title_link','area','level','school','end_date','office_name','keyword']]
-full_dataset.to_csv('saramin_crolling.csv',encoding='euckr')
+full_dataset.to_csv('saramin_crawler.csv',encoding='euckr')
