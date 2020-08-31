@@ -39,7 +39,7 @@ orderby = 2
 # ==========================================================
 # 2. webdriver 실행, 검색어 입력
 # ==========================================================
-driver = webdriver.Chrome(executable_path=r'/Users/hyeseon/Documents/chromedriver')
+driver = webdriver.Chrome(executable_path=r'/Users/chromedriver')
 driver.get("https://www.saramin.co.kr/zf_user/")
 
 #검색창 clear
